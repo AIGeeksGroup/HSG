@@ -1,2 +1,1 @@
-# HSG
-HSG: Hyperbolic Scene Graph
+# HSG: Hyperbolic Scene Graph
