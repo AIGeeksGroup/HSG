@@ -23,7 +23,7 @@ HSG is a hyperbolic **representation learning framework** that models scene grap
 
 Scene graph representations enable structured visual understanding by modeling objects and their relationships, and have been widely used for multiview and 3D scene reasoning. Existing methods such as MSG learn scene graph embeddings in Euclidean space using contrastive learning and attention-based association. However, Euclidean geometry does not explicitly capture hierarchical entailment relationships between places and objects, limiting the structural consistency of learned representations. To address this, we propose Hyperbolic Scene Graph (HSG), which learns scene graph embeddings in hyperbolic space where hierarchical relationships are naturally encoded through geometric distance. Our results show that HSG improves hierarchical structure quality while maintaining strong retrieval performance. The largest gains are observed in graph-level metrics: HSG achieves a PP IoU of **33.17** and the highest Graph IoU of **33.51**, outperforming the best AoMSG variant (25.37) by **8.14**, highlighting the effectiveness of hyperbolic representation learning for scene graph modeling.
 
-![image](.\model.png)
+![image](./model.png)
 
 ## ⚡ Quick Start
 ### Environment Setup
