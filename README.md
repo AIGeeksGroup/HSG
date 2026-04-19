@@ -1,4 +1,4 @@
-# Multiview Scene Graph (NeurIPS 2024)
+# HSG: Hyperbolic Scene Graph
 This is the official implementation of 
 >[Multiview Scene Graph](https://ai4ce.github.io/MSG/) 
 >
