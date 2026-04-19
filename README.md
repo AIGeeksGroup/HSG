@@ -76,28 +76,28 @@ python inference.py --experiment inference \
 --eval_chkpt CHECKPOINT/FILE
 ```
 
-Additional to inference, you can also leverage MSG for topological localization. Please see `localization.py` for details.
+Additional to inference, you can also leverage HSG for topological localization. Please see `localization.py` for details.
 
 ### Training
 
-To train the AoMSG model for MSG:
+To train the AoMSG model for HSG:
 ```shell
-python train.py --experiment aomsg
+python train.py --experiment hsg
 ```
 
 To train the SepMSG baselines:
 ```shell
 python train.py --experiment sepmsg
 ```
-Please refer to the respective configuration files `./configs/experiments/aomsg.yaml` and `./configs/experiments/sepmsg.yaml` for the detailed settings.
+Please refer to the respective configuration files `./configs/experiments/hsg.yaml` and `./configs/experiments/sepmsg.yaml` for the detailed settings.
 
 To resume training of a pretrained checkpoint, set `resume=True` and specify the `resume_path` to the checkpoint in the corresponding YAML configuration files.
 
 
 For evaluation, simply change the script while keep the same `experiment` configuration, in which `eval_output_dir` and `eval_chkpt` are specified.
 ```shell
-# evaluate AoMSG
-python eval.py --experiment aomsg 
+# evaluate HSG
+python eval.py --experiment hsg
 # evaluate SepSMG
 python eval.py --experiment sepmsg 
 # evaluate SepMSG-direct, which directly use features from froze backbone for MSG
@@ -106,7 +106,7 @@ python eval.py --experiment direct
 
 > **NOTE:**
 > 
-> This release focuses on the implementation of MSG. Object detection dependency is not included. 
+> This release focuses on the implementation of HSG. Object detection dependency is not included. 
 > To use detection results instead of groundtruth detection, we can specify detection results in files and give the `result_path` as is illustrated in `./configs/experiments/aomsg_gdino.yaml` where detection results obtained from [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) is used.
 > 
 > This means you need to run detection separately and save the results to a path. In the data hub we provide the gdino results for convenience. In the future release, we may include a version incorporating online detection.
