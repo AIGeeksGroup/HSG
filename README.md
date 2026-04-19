@@ -121,14 +121,10 @@ python eval.py --experiment direct
 > 
 > This means you need to run detection separately and save the results to a path. In the data hub we provide the gdino results for convenience. In the future release, we may include a version incorporating online detection.
 
-## BibTex
-```
-@inproceedings{
-zhang2024multiview,
-title={Multiview Scene Graph},
-author={Juexiao Zhang and Gao Zhu and Sihang Li and Xinhao Liu and Haorui Song and Xinran Tang and Chen Feng},
-booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-year={2024},
-url={https://openreview.net/forum?id=1ELFGSNBGC}
-}
-```
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AIGeeksGroup/HSG&type=Date)](https://www.star-history.com/#AIGeeksGroup/HSG&Date)
+
+
+## 😘 Acknowledgement
+We thank the authors of [MSG](https://github.com/ai4ce/MSG), [MERU](https://github.com/facebookresearch/meru) for their open-source code.
