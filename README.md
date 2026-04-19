@@ -32,7 +32,7 @@ Scene graph representations enable structured visual understanding by modeling o
 
 First, setup the environment by running
 ```shell
-git clone https://github.com/AIGeeksGroup/HSG/MSG.git
+git clone https://github.com/AIGeeksGroup/HSG.git
 cd hsg
 conda create --name hsg python=3.11.8
 conda activate hsg
