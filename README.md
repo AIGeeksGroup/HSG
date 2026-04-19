@@ -32,42 +32,32 @@ Scene graph representations enable structured visual understanding by modeling o
 
 First, setup the environment by running
 ```shell
-git clone https://github.com/ai4ce/MSG.git
-cd msg
-conda create --name msg python=3.11.8
-conda activate msg
+git clone https://github.com/AIGeeksGroup/HSG/MSG.git
+cd hsg
+conda create --name hsg python=3.11.8
+conda activate hsg
 pip install -r requirements.txt
 ```
 This `requirements.txt` contains minimum dependencies estimated by running `pipreqs`.
 
 *Alternatively*, to fully replicate the environment you can also run:
 ```shell
-git clone [https://github.com/ai4ce/MSG]().git
-cd msg
+git clone [https://github.com/AIGeeksGroup/HSG/MSG]().git
+cd hsg
 conda env create -f environment.yml
-conda activate msg
+conda activate hsg
 ```
 ### Data and weights
 
-MSG data is converted from Apple's [ARKitScenes](https://github.com/apple/ARKitScenes) by transforming its 3D annotations to 2D.
+HSG data is converted from Apple's [ARKitScenes](https://github.com/apple/ARKitScenes) by transforming its 3D annotations to 2D.
 The converted dataset can be found at this [Dataset Hub](https://huggingface.co/datasets/ai4ce/MSG) on Huggingface.
 We have also kept the code snippets for data convertion in `data_preprocess`.
 
-To use the data, download and unzip the data to `./data/msg`
+To use the data, download and unzip the data to `./data/hsg`
 - [ ] TODO: specify the data usage. 
 
 ```shell
-mkdir -p data/msg
-```
-
-We also provide pretrained [checkpoint](https://huggingface.co/datasets/ai4ce/MSG) of our AoMSG model in the same hub.
-
-To use the checkpoint, download it to `./exp-results/aomsg`
-- [ ] TODO: specify the checkpoint usage
-
-```shell
-mkdir -p exp-results/aomsg
-
+mkdir -p data/hsg
 ```
 
 ### Inference
