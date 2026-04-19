@@ -6,6 +6,17 @@ This is the official repository for the paper:
 >
 > \*Equal contribution. <sup>†</sup>Project lead. <sup>#</sup>Corresponding author.
 
+## ✏️ Citation
+If you find our code or paper helpful, please consider starring ⭐ us and citing:
+```bibtex
+@article{wang2025hsg,
+  title={HSG: Hyperbolic Scene Graph},
+  author={Wang, Liyang and Zhang, Zeyu and Tang, Hao},
+  journal={European Conference on Computer Vision},
+  year={2025},
+  note={Under Review}
+}
+
 ## 🏃 Intro HSG
 
 ![image]()
