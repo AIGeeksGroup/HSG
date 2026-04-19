@@ -42,7 +42,7 @@ This `requirements.txt` contains minimum dependencies estimated by running `pipr
 
 *Alternatively*, to fully replicate the environment you can also run:
 ```shell
-git clone [https://github.com/AIGeeksGroup/HSG/MSG]().git
+git clone [https://github.com/AIGeeksGroup/HSG]().git
 cd hsg
 conda env create -f environment.yml
 conda activate hsg
