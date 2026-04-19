@@ -1,31 +1,19 @@
-# HSG: Hyperbolic Scene Graph
-This is the official repository for the paper:
-> **HSG: Hyperbolic Scene Graph**
+# Multiview Scene Graph (NeurIPS 2024)
+This is the official implementation of 
+>[Multiview Scene Graph](https://ai4ce.github.io/MSG/) 
 >
-> [Liyang Wang](https://github.com/lw1120)\*, [Zeyu Zhang](https://steve-zeyu-zhang.github.io/)\*<sup>†</sup>, and [Hao Tang](https://ha0tang.github.io/)<sup>#</sup>
+>Juexiao Zhang, Gao Zhu, Sihang Li, Xinhao Liu, Haorui Song, Xinran Tang, Chen Feng
 >
-> \*Equal contribution. <sup>†</sup>Project lead. <sup>#</sup>Corresponding author.
+> New York University
 
-## ✏️ Citation
-If you find our code or paper helpful, please consider starring ⭐ us and citing:
-```bibtex
-@article{wang2025hsg,
-  title={HSG: Hyperbolic Scene Graph},
-  author={Wang, Liyang and Zhang, Zeyu and Tang, Hao},
-  journal={European Conference on Computer Vision},
-  year={2025},
-  note={Under Review}
-}
-```
+### [**[Project page]**](https://ai4ce.github.io/MSG) **|** [**[Paper]**](https://arxiv.org/abs/2410.11187)
 
-## 🏃 Intro HSG
-HSG is a hyperbolic **representation learning framework** that models scene graphs in non-Euclidean space to better capture hierarchical relationships for structured 3D scene understanding.
+![teaser](./media/teaser.jpg)
+<div style="text-align: center;">
+  <img src="media/scene1.gif" alt="Description of GIF">
+</div>
 
-Scene graph representations enable structured visual understanding by modeling objects and their relationships, and have been widely used for multiview and 3D scene reasoning. Existing methods such as MSG learn scene graph embeddings in Euclidean space using contrastive learning and attention-based association. However, Euclidean geometry does not explicitly capture hierarchical entailment relationships between places and objects, limiting the structural consistency of learned representations. To address this, we propose Hyperbolic Scene Graph (HSG), which learns scene graph embeddings in hyperbolic space where hierarchical relationships are naturally encoded through geometric distance. Our results show that HSG improves hierarchical structure quality while maintaining strong retrieval performance. The largest gains are observed in graph-level metrics: HSG achieves a PP IoU of **33.17** and the highest Graph IoU of **33.51**, outperforming the best AoMSG variant (25.37) by **8.14**, highlighting the effectiveness of hyperbolic representation learning for scene graph modeling.
-
-![image](./model.png)
-
-## ⚡ Implementations
+## Implementations
 ### Requirements
 
 First, setup the environment by running
@@ -119,12 +107,14 @@ python eval.py --experiment direct
 > 
 > This means you need to run detection separately and save the results to a path. In the data hub we provide the gdino results for convenience. In the future release, we may include a version incorporating online detection.
 
-
-
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=AIGeeksGroup/HSG&type=Date)](https://www.star-history.com/#AIGeeksGroup/HSG&Date)
-
-## 😘 Acknowledgement
-We thank the authors of XXX for their open-source code.
+## BibTex
+```
+@inproceedings{
+zhang2024multiview,
+title={Multiview Scene Graph},
+author={Juexiao Zhang and Gao Zhu and Sihang Li and Xinhao Liu and Haorui Song and Xinran Tang and Chen Feng},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=1ELFGSNBGC}
+}
+```
