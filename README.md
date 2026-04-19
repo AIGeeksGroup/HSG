@@ -13,9 +13,7 @@ If you find our code or paper helpful, please consider starring ⭐ us and citin
 @article{wang2026hsg,
   title={HSG: Hyperbolic Scene Graph},
   author={Wang, Liyang and Zhang, Zeyu and Tang, Hao},
-  journal={European Conference on Computer Vision},
-  year={2026},
-  note={Under Review}
+  year={2026}
 }
 ```
 ---
