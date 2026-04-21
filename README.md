@@ -6,7 +6,7 @@ This is the official repository for the paper:
 >
 > \*Equal contribution. <sup>†</sup>Project lead. <sup>#</sup>Corresponding author.
 >
-> ### [Paper](https://arxiv.org/abs/2604.17454) | ### [Model]()
+> ### [Paper](https://arxiv.org/abs/2604.17454) | [Model](https://huggingface.co/AIGeeksGroup/HSG)
 
 
 ## ✏️ Citation
