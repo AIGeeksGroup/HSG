@@ -6,7 +6,7 @@ This is the official repository for the paper:
 >
 > \*Equal contribution. <sup>†</sup>Project lead. <sup>#</sup>Corresponding author.
 >
-> ### [Paper](https://arxiv.org/abs/2604.17454) | [Model](https://huggingface.co/AIGeeksGroup/HSG)
+> ### [Paper](https://arxiv.org/abs/2604.17454) | [Model](https://huggingface.co/AIGeeksGroup/HSG) | [HF Paper](https://huggingface.co/papers/2604.17454)
 
 
 ## ✏️ Citation
@@ -15,6 +15,7 @@ If you find our code or paper helpful, please consider starring ⭐ us and citin
 @article{wang2026hsg,
   title={HSG: Hyperbolic Scene Graph},
   author={Wang, Liyang and Zhang, Zeyu and Tang, Hao},
+  journal={arXiv preprint arXiv:2604.17454},
   year={2026}
 }
 ```
